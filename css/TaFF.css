@@ -4,8 +4,17 @@
   border: 0px solid;   
 }
 
-hiddenThumbnail > img {
+.hiddenThumbnail > img {
 	border-radius: 50%;
+}
+
+@media(max-width: 768px) {
+	.description {
+		word-wrap: break-word;
+		text-align: justify;
+		margin-top: 20px;
+		font-size: 10px;
+	}	
 }
 
 @media(min-width: 768px){
@@ -13,6 +22,50 @@ hiddenThumbnail > img {
 		border-radius: 50%;
 		width: 50%;
 	}	
+
+	.description {
+		word-wrap: break-word;
+		text-align: justify;
+		margin-top: 50px;
+		font-size: 12px;
+	}
+	.beforeDiv {
+		display: none;
+    	visibility: hidden;
+		pointer-events: none;
+	}
+}
+
+@media(max-width: 768px) and (orientation: portrait){
+	.col-xs { //xs-12
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		float: left;
+		width: 100%;
+	}
+	.afterDiv {
+		display: none;
+    	visibility: hidden;
+		pointer-events: none;
+	}
+}
+
+@media(max-width: 768px) and (orientation: landscape){
+	.col-xs { //xs-6
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		float: left;
+		width: 50%;
+	}
+	.beforeDiv {
+		display: none;
+    	visibility: hidden;
+		pointer-events: none;
+	}
 }
 
 .hiddenElement {
