@@ -1,0 +1,24 @@
+.feedThumbnail {
+	height: 310px;
+	background-color: rgba(255, 255, 255, .9);	
+}
+
+.feedLink {
+	text-align: left;
+	color: #000;
+}
+
+.feedTitle {
+	height: 50px;
+}
+
+.feedInfo {
+	text-align: right;
+	font-size: 10px;
+}
+
+.feedContent {	
+	text-align: justify;	
+	font-size: 13px;
+	color: #000;
+}
