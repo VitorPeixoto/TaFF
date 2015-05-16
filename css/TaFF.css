@@ -4,8 +4,16 @@
   border: 0px solid;   
 }
 
-hiddenThumbnail > img {
+.hiddenThumbnail > img {
 	border-radius: 50%;
+}
+
+@media(max-width: 768px) {
+	.description {
+		word-wrap: break-word;
+		text-align: justify;
+		font-size: 10px;
+	}	
 }
 
 @media(min-width: 768px){
@@ -13,6 +21,13 @@ hiddenThumbnail > img {
 		border-radius: 50%;
 		width: 50%;
 	}	
+
+	.description {
+		word-wrap: break-word;
+		text-align: justify;
+		margin-top: 50px;
+		font-size: 12px;
+	}
 }
 
 .hiddenElement {
