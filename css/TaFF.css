@@ -4,10 +4,16 @@
   border: 0px solid;   
 }
 
-
-.hiddenThumbnail > img {
+hiddenThumbnail > img {
 	border-radius: 50%;
-}	
+}
+
+@media(min-width: 768px){
+	.hiddenThumbnail > img {
+		border-radius: 50%;
+		width: 50%;
+	}	
+}
 
 .hiddenElement {
 	display: none;
