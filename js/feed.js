@@ -28,12 +28,12 @@ var maxFeeds = 6;
         			link.className = "list-group-item";
 
         				var title = document.createElement("h5");
-                        title.className = "list-group-item-heading feedLink col-lg-6";			
+                        title.className = "list-group-item-heading feedLink";			
         				title.appendChild(document.createTextNode(titles[i+1].firstChild.nodeValue));
 
 						var info = document.createElement('p');
             			info.appendChild(document.createTextNode(new Date(pubDates[i+1].firstChild.nodeValue).toDateString()+" @ Consultor Jurídico"));
-            			info.className = "feedInfo caption col-lg-6";
+            			info.className = "feedInfo caption";
 
         				var content = document.createElement('p');
                     	content.innerHTML = descriptions[i+1].firstChild.nodeValue;

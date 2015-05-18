@@ -148,7 +148,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/big_white_logo.png) no-repeat top center scroll;
+    //background: url(../img/big_white_logo.png) no-repeat top center scroll;
     //background: url(../img/big_watermark.png) no-repeat bottom center scroll;
     background-color: rgba(0, 0, 0, .3);
     -webkit-background-size: 50%;
