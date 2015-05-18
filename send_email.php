@@ -126,7 +126,6 @@ $headers = 'From: '.$email_from."\r\n".
 
 
 @mail($email_to, $email_subject, $email_message, $headers);  
- 
 ?>
 <?php
  
